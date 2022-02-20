@@ -1,0 +1,633 @@
+body,
+html {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
+.shop_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.css-o69gx8-MuiCardMedia-root {
+  width: 40%;
+
+}
+
+.img_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.img_src {
+  width: 40%;
+  height: 50%;
+}
+
+.card_shop_container {
+  background-color: rgba(230, 223, 223, 0.842);
+}
+
+.img_card_shop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop_card_buy {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 70%;
+  gap: 10%;
+  height: 100%;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 450px;
+  background-color: black;
+  padding-bottom: 20px;
+  color: aliceblue;
+  margin-top: 30px;
+  padding-top: 20px;
+
+}
+
+.shop_header h1 {
+  font-size: 50px;
+
+}
+
+.cart_card_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 250px;
+  max-height: 250px;
+  margin-top: 30px;
+}
+
+.cart_card_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.cart_card_amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+
+}
+
+
+.shop_cart_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.cart_card_text {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10%;
+  grid-template-rows: 20% 30% 20%;
+  padding: 5%;
+}
+
+.cart_card_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_card_img img {
+  width: 200px;
+  height: 200px;
+
+}
+
+.cart_card_text_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_drop_down_cat {
+  color: aliceblue;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+}
+
+.ul_cat {
+  list-style-type: none;
+  font-size: 20px;
+  padding-top: 20xp;
+  width: 100%;
+  transition: width 2s;
+
+}
+
+
+.ul_cat li {
+  padding: 10px;
+  width: 100%;
+  border-bottom: 2px solid rgb(235, 230, 230);
+
+
+}
+
+
+
+
+
+.btn_drop_down_cat_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 0;
+}
+
+
+
+.delete_from_cart_icon {
+  font-size: 25px;
+  color: rgb(185, 66, 66);
+}
+
+.drawer_list {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+
+}
+
+.shop_h1_amount {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pay_container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 5px;
+
+}
+
+.pay_btns {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.totals_cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: hsl(0, 0%, 66%, 0.5);
+}
+
+.product_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.FiEdit {
+  margin-left: 10xp;
+}
+
+.input_edit_product {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+
+.input_edit_product label {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.input_edit_product button {
+  margin-left: 20px;
+}
+
+.input_edit_product_save {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.input_edit_product_save button {
+  margin-top: 50px;
+}
+
+.edit_delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vertical_line {
+  border-left: 2px solid black;
+  height: 20px;
+}
+
+.add_product_container {
+  width: 80%;
+  margin-left: 30px;
+}
+
+.add_product_input {
+  margin-top: 20px;
+}
+
+.add_product_img {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add_product_img img {
+  margin-top: 40px;
+}
+
+.add_product_img button {
+  width: 100%;
+}
+
+.add_product_container button {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.sort_price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.sort_price p {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.btn_add_product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn_sort {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn_sort button {
+  margin-left: 10px;
+}
+
+.product_desc input {
+  min-height: 100px;
+
+}
+
+.input_edit_product_desc {
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_edit_product_desc button {
+  margin-top: 10px;
+}
+
+.product_name_company {
+  display: flex;
+  flex-direction: column;
+}
+
+/*********************************************************************************************************************************************/
+
+.Wallpapper {
+  background-image: url('/public/image/wallpaper.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.camera_icon {
+  width: 250px;
+  height: 200px;
+}
+
+.cssNavbar {
+  margin-right: 0px;
+}
+
+.Link {
+  color: white;
+}
+
+/*דף בית*/
+
+.home_page_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 11px;
+  background-image: url('/public/image/wallpaper.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+#scroll-container {
+  border: 3px solid white;
+  border-radius: 5px;
+  height: 165px;
+
+  overflow: hidden;
+  width: 281px;
+}
+
+
+
+#scroll-text {
+  height: 147% !important;
+  text-align: center;
+
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+  }
+
+  to {
+    -moz-transform: translateY(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+
+
+
+.Result {
+  color: white;
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+
+/*דף פרופיל*/
+
+.UserPage_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 0px;
+  height: 100%;
+  margin-top: 61px;
+}
+
+.css-1y942vo-MuiButtonBase-root-MuiButton-root {
+  padding: 0px !important;
+}
+
+
+/*התחברות*/
+
+.Login_container h1 {
+  font-size: 60px;
+  font-family: fantasy;
+  background: darkorange;
+  border: 7px solid white;
+  border-radius: 27px;
+}
+
+.Login_form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.Login_form input {
+  font-size: 25px;
+}
+
+.Login_form button {
+  font-size: 25px;
+
+}
+
+.css-g21pq5 {
+  height: 389px !important;
+  padding: 35px !important;
+}
+
+
+
+.form-floating>.form-control {
+  height: calc(3.5rem + -9px) !important;
+}
+
+/*הרשמה*/
+.RegisterImage {
+  background-image: url('/public/image/ball.jpg');
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1Register {
+  text-align: center;
+  color: red;
+  border: 2px solid;
+  background-color: cyan;
+  border-radius: 40px;
+  width: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.mb-3 {
+  width: 100% !important;
+}
+
+.css-ece9u5 {
+  min-width: 100% !important;
+}
+
+
+#root {
+  height: 100%;
+}
+
+
+
+.css-o69gx8-MuiCardMedia-root {
+  width: 40%;
+
+}
+
+.img_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.img_src {
+  width: 40%;
+  height: 50%;
+}
+
+
+
+.btnRegister {
+  display: flex;
+  flex-direction: column;
+}
+
+.BtnLogOut {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 8px;
+  margin-bottom: 6px;
+}
+
+
+
+
+.div[style] {
+  /* top:625px !important; */
+  height: 31% !important;
+}
+
+
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: white !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  height: 32px !important;
+}
+
+.edit_btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.edit_btn button {
+  margin-left: 20px;
+}
